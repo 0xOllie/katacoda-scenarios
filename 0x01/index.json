@@ -9,7 +9,7 @@
       },
       "steps": [
         {
-          "title": "Introduction to Linux - By Oliver Collins",
+          "title": "Introduction to Linux",
           "text": "challenge.md",
           "courseData": "courseData.sh"
         }]

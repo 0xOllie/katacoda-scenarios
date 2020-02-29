@@ -1,4 +1,3 @@
-# Introduction to Linux
 ### Created by Oliver Collins for you
 
 - Introduction
