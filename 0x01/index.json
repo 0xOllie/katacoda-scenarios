@@ -5,8 +5,13 @@
     "time": "The rest of your lives",
     "details": {
       "intro": {
-        "courseData": "courseData.sh",
-        "text": "intro.md"
+    "text": "intro.md",
+    "steps": [
+        {
+          "title": "Introduction to Linux - By Oliver Collins",
+          "text": "challenge.md",
+          "courseData": "courseData.sh"
+        }]
       }
     },
     "environment": {
@@ -17,4 +22,3 @@
       "imageid": "bash"
     }
   }
-  
