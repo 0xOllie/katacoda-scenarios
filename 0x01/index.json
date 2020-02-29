@@ -1,0 +1,20 @@
+{
+    "title": "UQ Cyber Squad 0x01",
+    "description": "Introduction to linux",
+    "difficulty": "hacker",
+    "time": "The rest of your lives",
+    "details": {
+      "intro": {
+        "courseData": "courseData.sh",
+        "text": "intro.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uimessage1": "Welcome to Linux, CTFs have been loaded. Have fun!"
+    },
+    "backend": {
+      "imageid": "bash"
+    }
+  }
+  
