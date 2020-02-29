@@ -19,6 +19,6 @@
       "uimessage1": "Welcome to Linux, CTFs have been loaded. Have fun!"
     },
     "backend": {
-      "imageid": "bash"
+      "imageid": "ubuntu"
     }
   }
