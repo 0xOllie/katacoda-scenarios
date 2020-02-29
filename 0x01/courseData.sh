@@ -21,4 +21,4 @@ crontab -l | { cat; echo "#" $flag5; } | crontab -
 # Hide our challenges from the user
 history -c
 # Make their prompt a bit more special
-echo PS1="root@teaching-server $ " >> ~/.bashrc
+echo PS1="root@teaching-server $ " >> /root/.bashrc
