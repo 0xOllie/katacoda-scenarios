@@ -16,5 +16,9 @@ rm ~/flag4.txt
 # Challenge 5 - I got a new job
 crontab -l | { cat; echo "* * * * * echo my_JOB_is_to_hide_flags >> /var/log/syslog"; } | crontab -
 crontab -l | { cat; echo "#" $flag5; } | crontab -
+# Challenge 6 - Hey man checkout my code
+#git clone https://github.com/oliverjcollins/flag
 # Hide our challenges from the user
 history -c
+# Make their prompt a bit more special
+export PS1="root@teaching-server $ "
