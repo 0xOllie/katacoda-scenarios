@@ -1,10 +1,10 @@
-flag1="flag{cad340fc-aa55-42b5-a092-d9f3bc59b42b}";
-flag2="flag{080119a4-b226-4fac-92e8-949ef3a1248a}";
-flag3="flag{a0643b70-57c5-469d-af07-9abbee327fda}";
-flag4="flag{e28e2400-c00a-4a8f-b4a6-d00ccbfa4773}";
-flag5="flag{c5e9358b-029e-49d3-8dfb-fc7817214198}";
-flag7="flag{a16a8008-5703-428a-a4b0-82a1875856f0}";
-flag8="flag{fbdf885e-f956-45dc-833b-74c2dad2a094}";
+flag1="flag{happy_files}";
+flag2="flag{secret_files}";
+flag3="flag{fido_the_dog}";
+flag4="flag{tar_untar_sticky}";
+flag5="flag{what_a_cron_job}";
+flag7="flag{cool_shell}";
+flag8="flag{shadows_reflect}";
 # Challenge 1 - Normal files
 echo $flag1 > ~/welcome
 # Challenge 2 - Hidden files
