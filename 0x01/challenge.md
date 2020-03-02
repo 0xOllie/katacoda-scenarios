@@ -1,9 +1,10 @@
+# Introduction to Linux
 ### Created by Oliver Collins for you
 
 - Introduction
  - A brief explanation of Linux
  - Using the CLI - **C**ommand **L**ine **I**nterface
- - CLI quick reference 
+ - CLI quick reference
  - Challenges
 
 ## Introduction
@@ -59,7 +60,7 @@ Okay new we have a computer lets try some commands to find out where we are.
 | Clear | `clear` | Clears the screen
 |History | `history` | Shows you a history of what commands have been run
 | Git | `git clone https://github.com/oliverjcollins/flag` | Very cool tool for managing source code, too much to talk about, but there are some good resources [here](https://rogerdudler.github.io/git-guide/)
-|
+| bash | `./script.sh` or `bash script.sh` | Runs a script
 
 
 ## Challenges
@@ -72,3 +73,6 @@ Below is the list of challenges and some hints
  4. Sticky Tar - *I always lose these tarballs, can you find mine and open it*
  5. I got a new job! - *I'd check syslog, theres a funny message there*
  6. Hey man checkout my code - *If I were a good developer, where would my code live?*
+ 7. Let's get scripty - *I'm gonna bash this challenge*
+ 8. There's somebody else here - *I'm just chasing shadows*
+ 
