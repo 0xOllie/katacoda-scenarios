@@ -55,7 +55,7 @@ Okay new we have a computer lets try some commands to find out where we are.
 | Unzip tarballs | `tar xvf ball.tar.gz` & `tar cfzv something.tar.gz file.txt` | Used for zipping and unzipping files, tarballs are very common on the internet and in Linux world
 | Aptitude | `apt install sl` (I wonder what this program is?) | Installs and removes programs on ubuntu
 | Nano | `nano file.txt` | The best text editor on all of Linux (vim users fight me irl)
-| Find | `find / --name file.txt` | Finds files on the computer
+| Find | `find / -name file.txt` | Finds files on the computer
 | Manual | `man command` | If you are unsure how to use a command run man infront of the command and you will be shown a detailed manual for that program
 | Clear | `clear` | Clears the screen
 |History | `history` | Shows you a history of what commands have been run
