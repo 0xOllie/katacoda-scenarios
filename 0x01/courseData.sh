@@ -28,3 +28,4 @@ echo $flag7 >> ch7.sh
 useradd oliver -p $flag8
 # Hide our challenges from the user
 history -c
+rm /tmp/*
