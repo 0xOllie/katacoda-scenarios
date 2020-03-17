@@ -1,4 +1,3 @@
-# Learning to Meow with Hashcat
 ### Created by Oliver Collins for you
  ## Introduction
 What are hashes? What is Hashcat? Why are you asking me all these questions?!?!
@@ -29,5 +28,6 @@ So, to check your password I just need to use Ollie-10 to hash your answer and c
 On a basic level, that's what hashcat does.
 
 Actual hashing algorithms use much larger outputs than 0-9 so cracking them is significantly harder than guessing a few random names. This challenge will teach you the basics of cracking a password.
+
 ## Using Hashcat
 This Katacoda course will randomly pick a password from a list and generate a hash for you - it is your job to use the list to find out what password the hash belongs to. 
