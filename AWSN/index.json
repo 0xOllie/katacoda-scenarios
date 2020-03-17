@@ -1,8 +1,8 @@
 {
-    "title": "QUT White Hats, Intro to Linux",
-    "description": "Introduction to linux",
-    "difficulty": "hacker",
-    "time": "The rest of your lives",
+    "title": "AWSN Talk Hacking With Linux",
+    "description": "This workshop aims to build foundational command line skills by using practical exercises and CTF challenges. The presentation will also cover some command line tools commonly used in offensive security engagements. If you’ve ever been keen to try Linux but haven’t known where to start this is the presentation for you. After the presentation there will be 3 categories of CTF challenges to work though.",
+    "difficulty": "Nice and easy",
+    "time": "About an hour",
     "details": {
       "intro": {
         "text": "intro.md"
@@ -28,3 +28,6 @@
       "imageid": "ubuntu"
     }
   }
+
+
+  " "
