@@ -1,0 +1,30 @@
+{
+    "title": "QUT White Hats, Intro to Linux",
+    "description": "Introduction to linux",
+    "difficulty": "hacker",
+    "time": "The rest of your lives",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Introduction to Linux",
+          "text": "linux.md",
+          "courseData": "linux.sh"
+        },
+        {
+          "title": "Learning to Meow with Hashcat",
+          "text": "hashcat.md",
+          "courseData": "hashcat.sh"
+        }
+      ]
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uimessage1": "Welcome to Linux, CTFs have been loaded. Have fun!"
+    },
+    "backend": {
+      "imageid": "ubuntu"
+    }
+  }
