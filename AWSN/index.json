@@ -14,9 +14,9 @@
           "courseData": "linux.sh"
         },
         {
-          "title": "Learning to Meow with Hashcat",
-          "text": "hashcat.md",
-          "courseData": "hashcat.sh"
+          "title": "Talking a walk with John the Ripper",
+          "text": "john.md",
+          "courseData": "john.sh"
         }
       ]
     },
