@@ -57,8 +57,12 @@ Actual hashing algorithms use much larger outputs than 0-9 so cracking them is s
   
 
 ##  Using John
-
 This Katacoda course will randomly pick a password from a list and generate a hash for you - it is your job to use the tools installed to crack this password. Because the hash is randomly generated we don't have way to check the answer - good luck.
 
-    john --format=raw-md5 hash.txt --show
+  Lets load our wordlist  
 
+    john --format=Raw-Md5 hash.txt --wordlist wordlist.txt
+    
+Okay lets see that password
+
+    john --format=raw-md5 hash.txt --show
