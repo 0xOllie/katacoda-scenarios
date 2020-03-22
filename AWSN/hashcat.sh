@@ -1,3 +1,7 @@
+# install dependancies
+sudo apt install p7zip-full
+
+# create folder
 mkdir hashcat
 cd hashcat
 
@@ -8,7 +12,7 @@ wget https://hashcat.net/files/hashcat-5.1.0.7z
 echo "Hey if you are in this folder you should be using the Learning to Meow with Hashcat documentation, this is for part 2 of the CTF" >> README
 
 # Write a hash to a file
-echo -n Welcome | md5sum >> hash.txt
+echo -n Welcome | md5sum | tr -d " -" >> hash.txt
 
 # Hide our challenges from the user
 history -c
