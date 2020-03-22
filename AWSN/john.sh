@@ -14,6 +14,7 @@ echo "Hey if you are in this folder you should be using the Learning to Meow wit
 
 # Write a hash to a file
 echo -n ${wordlist[$rand]} | md5sum | tr -d " -" >> hash.txt
+printf "%s\n" "${wordlist[@]}" > wordlist.txt
 
 # Hide our challenges from the user
 history -c
