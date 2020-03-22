@@ -22,7 +22,7 @@ crontab -l | { cat; echo "#" $flag5; } | crontab -
 #git clone https://github.com/oliverjcollins/flag
 # Challenge 7 - Let's get scripty
 echo '#!/bin/bash
-echo export PS1='root@teaching-server $ '
+echo "export PS1='root@teaching-server~~ '"
 echo echo Run me ^^^
 # $flag7
 ' > ~/ch7.sh
