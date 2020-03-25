@@ -17,6 +17,11 @@
           "title": "Talking a walk with John the Ripper",
           "text": "john.md",
           "courseData": "john.sh"
+        },
+        {
+          "title": "HTTPie crypto challenges",
+          "text": "crypto.md",
+          "courseData": "crypto.sh"
         }
       ]
     },
