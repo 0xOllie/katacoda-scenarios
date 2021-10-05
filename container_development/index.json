@@ -5,20 +5,28 @@
   "time": "15 Minutes",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "credits": "Oliver Collins"
     },
     "steps": [
       {
         "title": "Placeholder",
         "text": "lesson_one.md"
-      }],
-      "finish": {
-        "text": "lesson_one.md"
       }
+    ],
+    "finish": {
+      "text": "lesson_one.md"
+    }
+  },
+  "assets": {
+    "host01": [
+      { "file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x" }
+    ]
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "Welcome to Linux, CTFs have been loaded. Have fun!"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
