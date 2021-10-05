@@ -1,10 +1,10 @@
-flag1="flag{happy_files}";
-flag2="flag{secret_files}";
-flag3="flag{fido_the_dog}";
-flag4="flag{tar_untar_sticky}";
-flag5="flag{what_a_cron_job}";
-flag7="flag{cool_shell}";
-flag8="flag{shadows_reflect}";
+flag1="QUTWH{happy_files}";
+flag2="QUTWH{secret_files}";
+flag3="QUTWH{fido_the_dog}";
+flag4="QUTWH{tar_untar_sticky}";
+flag5="QUTWH{what_a_cron_job}";
+flag7="QUTWH{cool_shell}";
+flag8="QUTWH{shadows_reflect}";
 # Challenge 1 - Normal files
 echo $flag1 > ~/welcome
 # Challenge 2 - Hidden files
