@@ -1,7 +1,7 @@
 #!/bin/bash
 show_progress()
 {
-  echo -n "Setting up environment..."
+  echo -n "Setting up the environment..."
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -23,6 +23,4 @@ show_progress()
   echo "Done!"
   echo -n ""
 }
-
 show_progress
-tmux
