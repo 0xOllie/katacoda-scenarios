@@ -1,0 +1,26 @@
+{
+  "title": "QUT White Hats, Container Development.",
+  "description": "This lab shows you the basics of building and orchestrating containers.",
+  "difficulty": "Beginner",
+  "time": "15 Minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Placeholder",
+        "text": "lesson_one.md"
+      }],
+      "finish": {
+        "text": "lesson_one.md"
+      }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Welcome to Linux, CTFs have been loaded. Have fun!"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
